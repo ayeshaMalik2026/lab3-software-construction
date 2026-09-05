@@ -42,4 +42,15 @@ Implemented string evaluation logic:
 * Verified non-palindrome strings (e.g., `"hello"`).
 * Verified edge cases for `null` and empty strings (`""`).
 
-   
+   ### Task 4: Shopping Cart System (`ShoppingCart.java`)
+Implemented custom e-commerce cart management:
+* `addItem(String itemName, double price)`
+* `removeItem(String itemName)`
+* `calculateTotal(double discountPercentage)`
+* `getItemCount()`
+
+**Unit Tests (`ShoppingCartTest.java`):**
+* Verified adding items increments cart item count.
+* Verified removing an item updates cart size correctly.
+* Verified price total calculation with discount percentage applied.
+* Verified `IllegalArgumentException` thrown on negative item prices or invalid discounts (>100%).
