@@ -32,5 +32,14 @@ Implemented basic banking transactions and invariant handling:
 * Verified valid withdrawal decreases balance.
 * Verified `IllegalStateException` on overdraft (withdraw beyond balance).
 * Verified `IllegalArgumentException` on negative deposit amount.
+* ### Task 3: String Utility Palindrome Checker (`StringUtil.java`)
+Implemented string evaluation logic:
+* `isPalindrome(String s)`
+
+**Unit Tests (`StringUtilTest.java`):**
+* Verified standard lowercase palindromes (e.g., `"madam"`).
+* Verified case-insensitive palindromes (e.g., `"RaceCar"`).
+* Verified non-palindrome strings (e.g., `"hello"`).
+* Verified edge cases for `null` and empty strings (`""`).
 
    
