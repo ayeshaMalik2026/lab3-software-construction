@@ -54,3 +54,12 @@ Implemented custom e-commerce cart management:
 * Verified removing an item updates cart size correctly.
 * Verified price total calculation with discount percentage applied.
 * Verified `IllegalArgumentException` thrown on negative item prices or invalid discounts (>100%).
+
+### Task 5: Simple Timer Utility (`TimerUtil.java`)
+Implemented elapsed-time computation:
+* `secondsBetween(int start, int end)`
+
+**Unit Tests (`TimerUtilTest.java`):**
+* Verified normal elapsed time calculation (`start = 10, end = 25` → `15`).
+* Verified boundary condition (`start = 0, end = 0` → `0`).
+* Verified `IllegalArgumentException` thrown when `end < start`.
