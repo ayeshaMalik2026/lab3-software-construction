@@ -1,6 +1,7 @@
 TemperatureConverter.class
-StringUtil.class
-ShoppingCart.class
+TimerUtil.class
 com\university\lab\helloworld\lab3\Lab3.class
 com\university\lab\helloworld\lab3\StringUtil.class
+StringUtil.class
+ShoppingCart.class
 com\university\lab\helloworld\lab3\BankAccount.class

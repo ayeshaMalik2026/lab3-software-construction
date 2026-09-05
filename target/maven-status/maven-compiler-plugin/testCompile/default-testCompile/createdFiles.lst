@@ -2,3 +2,4 @@ StringUtilTest.class
 ShoppingCartTest.class
 com\university\lab\helloworld\lab3\BankAccountTest.class
 TemperatureConverterTest.class
+TimerUtilTest.class
