@@ -20,6 +20,17 @@ Implemented conversion formulas between Celsius, Fahrenheit, and Kelvin:
 * Verified known conversion pairs (e.g., 0°C → 32°F, 100°C → 212°F, 0°C → 273.15 K).
 * Validated round-trip consistency ($C \rightarrow F \rightarrow C$).
 * Asserted precision using `assertEquals(expected, actual, delta)`.
+* 
+### Task 2: Bank Account Operations (`BankAccount.java`)
+Implemented basic banking transactions and invariant handling:
+* `deposit(double amt)`
+* `withdraw(double amt)`
+* `getBalance()`
 
+**Unit Tests (`BankAccountTest.java`):**
+* Verified positive deposit increases balance.
+* Verified valid withdrawal decreases balance.
+* Verified `IllegalStateException` on overdraft (withdraw beyond balance).
+* Verified `IllegalArgumentException` on negative deposit amount.
 
    
